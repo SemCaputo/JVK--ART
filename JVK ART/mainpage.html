@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="mainpage.css">
+
+    <title>JVK//ART</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center fixed-top">JVK//ART</h1>
+    </header>
+
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <a href="#" class="navbar-brand"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navlinks" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collaspe navbar-collapse" id="navlinks">
+            <ul class="navbar-nav nav-justified">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">INSTAGRAM</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">TUMBLR</a>
+                </li>
+                <li class="nav-item">
+                    <a href="form.html" class="nav-link">CONTACTS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container px-0">
+        <div class="row justify-content-center photoMenu">
+            <div id="gallery" class="col-md-4 order-2 order-md-1"></div>
+            <div id="homecomic" class="col-md-4 order-1 order-md-2"></div>
+        </div>
+    </div>
+
+    <div class="container px-0">
+        <div class="row justify-content-center">
+            <div id="onepagecomic" class="col-md-4 order-2 order-md-1"></div>
+            <div id="spare" class="col-md-4 order-1 order-md-2"></div>
+        </div>
+    </div>
+
+
+
+
+    <h2 id="updates" class="text-center">Site Updates</h2>
+
+
+
+    <div class="vstack gap-2 col-md-5 mx-auto">
+        <div id="one" class="">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde laboriosam sed pariatur cum saepe
+            reprehenderit deserunt praesentium in? Minima necessitatibus rerum nulla in sequi ex hic reiciendis
+            impedit
+            doloribus atque?
+        </div>
+        <div id="one" class="">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, ex quisquam eligendi quam dolorem
+            tenetur
+            molestiae reprehenderit nam doloremque aliquid accusantium quibusdam voluptatibus asperiores? Sunt
+            alias
+            animi nesciunt explicabo corporis?
+            Sit dolore asperiores, atque odit facilis fugit laudantium iste corporis ipsum iure ea optio, sequi
+            pariatur
+            consectetur laboriosam dicta blanditiis. Optio, omnis? Dolore ratione fuga ad eaque vitae earum.
+            Quaerat.
+        </div>
+        <div id="one" class="">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, sunt exercitationem velit ipsam
+            officia
+            repellendus? Ullam nostrum asperiores ab! Exercitationem dolorem explicabo non. Porro accusantium,
+            perferendis laboriosam modi illum veritatis.
+            Accusantium, ducimus accusamus at vitae ex, sed, impedit illum iusto laudantium quam suscipit.
+            Necessitatibus cum sed temporibus voluptatem sint. Nihil corrupti excepturi necessitatibus quidem
+            eveniet,
+            harum dolores aspernatur quibusdam veritatis?
+            Dolore quia voluptatem ad iusto dignissimos, culpa explicabo obcaecati accusantium eaque porro animi
+            veniam
+            laborum, molestiae quaerat, delectus molestias ullam blanditiis minus iure vel. Id distinctio
+            nesciunt
+            est
+            fugiat nam.
+        </div>
+    </div>
+
+    <script src="mainpage.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>
